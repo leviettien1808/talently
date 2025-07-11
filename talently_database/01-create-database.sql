@@ -1,7 +1,13 @@
 -------------------- CREATE DATABASE --------------------
--- CREATE DATABASE IF NOT EXISTS talently; -- MySQL
--- CREATE SCHEMA talently; -- MySQL: this command is the same as CREATE DATABASE
-CREATE DATABASE talently; -- MySQL/PostgreSQL
+-- MySQL
+-- CREATE DATABASE IF NOT EXISTS talently;
+-- CREATE SCHEMA talently; -- this command is the same as CREATE DATABASE
+CREATE DATABASE talently;
+
+-- Postgres
+-- CREATE DATABASE talently;
+
+-- SQLite
 -- sqlite3 talently.db -- SQLite: this command is run in the terminal to create a database file
 
 
