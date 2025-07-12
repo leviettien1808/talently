@@ -1,4 +1,4 @@
-INSERT INTO users (year_salary, full_name, current_status) VALUES
+INSERT INTO users (yearly_salary, full_name, current_status) VALUES
 (50000, 'Alice Smith', 'employed'),
 (60000, 'Bob Johnson', 'self-employed'),
 (0, 'Charlie Brown', 'unemployed'),

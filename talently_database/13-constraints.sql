@@ -16,12 +16,12 @@ MODIFY COLUMN current_status ENUM('employed', 'self-employed', 'unemployed') NOT
 -- Step2:
 -- CREATE TABLE users (
 --     full_name TEXT NOT NULL,
---     year_salary INTEGER,
+--     yearly_salary INTEGER,
 --     current_status TEXT CHECK (current_status IN ('employed', 'self-employed', 'unemployed')) NOT NULL
 -- );
 -- Step3:
--- INSERT INTO users (full_name, year_salary, current_status)
--- SELECT full_name, year_salary, current_status
+-- INSERT INTO users (full_name, yearly_salary, current_status)
+-- SELECT full_name, yearly_salary, current_status
 -- FROM users_old
 -- WHERE full_name IS NOT NULL AND current_status IS NOT NULL;
 -- Step4:
